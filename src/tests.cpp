@@ -428,7 +428,7 @@ void leaf_spine_bw(string good_examples_file, string bad_examples_file) {
                 Op(Op::Type::LE),
                 query_thresh);
 
-    cp->set_query(query);
+    cp->set_query(query, cp->get_expr2(query));
 
     cout << "cp setup: " << (get_diff_millisec(start_time, noww()) / 1000.0) << " s" << endl;
 

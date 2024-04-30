@@ -30,6 +30,7 @@ public:
     expr get_base_wl_expr();
 
     void set_query(Query& query);
+    void set_query(Query& query, const expr& e);
     unsigned int in_queue_cnt();
     vector<Queue*> get_in_queues();
     unsigned int get_total_time();
@@ -80,6 +81,8 @@ public:
     string stats_str();
 
     friend ostream& operator<<(ostream& os, const ContentionPoint& p);
+
+    expr get_expr2(Query& query);
 
 protected:
     NetContext net_ctx;
