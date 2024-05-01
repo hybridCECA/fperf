@@ -1815,25 +1815,25 @@ solver_res_t ContentionPoint::get_solver_res_t(check_result z3_res) {
 
 /* *********** Generating Z3 Expressions ************ */
 
-expr ContentionPoint::get_expr2(Query& query) {
-    cid_t id = get<cid_t>(query.get_lhs());
-    Metric* metric = metrics[query.get_metric()][id];
+// expr ContentionPoint::get_expr2(Query& query) {
+//     cid_t id = get<cid_t>(query.get_lhs());
+//     Metric* metric = metrics[query.get_metric()][id];
 
-    expr_vector queries(net_ctx.z3_ctx());
-    time_range_t range = query.get_time_range();
-    for (unsigned int time = range.first; time <= range.second; time++) {
-        expr_vector valid(net_ctx.z3_ctx());
+//     expr_vector queries(net_ctx.z3_ctx());
+//     time_range_t range = query.get_time_range();
+//     for (unsigned int time = range.first; time <= range.second; time++) {
+//         expr_vector valid(net_ctx.z3_ctx());
 
-        m_val_expr_t val = metric->val(time);
-        valid.push_back(val.first);
+//         m_val_expr_t val = metric->val(time);
+//         valid.push_back(val.first);
 
-        queries.push_back(mk_and(valid) && mk_op(val.second,
-            query.get_op(),
-            net_ctx.int_val(query.get_thresh())));
-    }
+//         queries.push_back(mk_and(valid) && mk_op(val.second,
+//             query.get_op(),
+//             net_ctx.int_val(query.get_thresh())));
+//     }
 
-    return mk_and(queries);
-}
+//     return mk_and(queries);
+// }
 
 expr ContentionPoint::get_expr(Query& query) {
     expr query_expr(net_ctx.z3_ctx());
