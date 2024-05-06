@@ -1,17 +1,18 @@
 CXX      := g++
 CXXFLAGS := -pedantic-errors -Wno-sign-compare -Wno-unknown-pragmas -Wall -Wextra -Werror -std=c++17 -O3
-LDFLAGS  := -L/opt/homebrew/lib -lstdc++ -lm -lz3
+LDFLAGS  := -L/usr/lib -L/usr/local/lib/ -lstdc++ -lm -lz3
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)
 TARGET   := fperf
-INCLUDE  := -I/opt/homebrew/include -Ilib/ -Ilib/metrics/ -Ilib/cps -Ilib/qms
-SRC      := $(wildcard src/*.cpp) $(wildcard src/*/*.cpp)
+INCLUDE  := -I/usr/local/include -Ilib/ -Ilib/metrics/ -Ilib/cps -Ilib/qms
+SRC      :=	$(wildcard src/*.cpp) \
+						 $(wildcard src/*/*.cpp)
 TEST_SRC := $(wildcard tests/*.cpp)
 TEST_TARGET_PATH := $(APP_DIR)/$(TARGET)_test
-
+			
 HEADERS := $(patsubst src/%.cpp,lib/%.hpp, $(filter-out src/main.cpp, $(SRC)))
-OBJECTS := $(patsubst %.cpp,$(OBJ_DIR)/%.o,$(SRC))
+OBJECTS := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
 all: build $(APP_DIR)/$(TARGET)
 
@@ -21,7 +22,7 @@ $(OBJ_DIR)/%.o: %.cpp
 
 $(APP_DIR)/$(TARGET): $(OBJECTS)
 	@mkdir -p $(@D)
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $^ 
+	$(CXX) $(CXXFLAGS) -o $(APP_DIR)/$(TARGET) $^ $(LDFLAGS)
 
 .PHONY: all build clean test check-format format
 

@@ -19,5 +19,7 @@ expr get_expr2(ContentionPoint& cp, Query& query) {
             cp.net_ctx.int_val(query.get_thresh())));
     }
 
-    return mk_and(queries);
+    auto res = mk_and(queries);
+    cout << "Query constructed is: " << res.to_string() << endl;
+    return res;
 }
