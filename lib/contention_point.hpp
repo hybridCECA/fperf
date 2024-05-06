@@ -82,7 +82,7 @@ public:
 
     friend ostream& operator<<(ostream& os, const ContentionPoint& p);
 
-    expr get_expr2(Query& query);
+    friend expr get_expr2(ContentionPoint& cp, Query& query);
 
 protected:
     NetContext net_ctx;

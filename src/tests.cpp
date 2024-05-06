@@ -17,6 +17,7 @@
 #include "rr_scheduler.hpp"
 #include "search.hpp"
 #include "tbf.hpp"
+#include "contention_point_expr.hpp"
 
 void run(ContentionPoint* cp,
          IndexedExample* base_eg,
@@ -428,7 +429,7 @@ void leaf_spine_bw(string good_examples_file, string bad_examples_file) {
                 Op(Op::Type::LE),
                 query_thresh);
 
-    cp->set_query(query, cp->get_expr2(query));
+    cp->set_query(query, get_expr2(*cp, query));
 
     cout << "cp setup: " << (get_diff_millisec(start_time, noww()) / 1000.0) << " s" << endl;
 
