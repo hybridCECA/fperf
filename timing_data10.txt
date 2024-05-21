@@ -1,0 +1,2706 @@
+starting test for leaf spine 3 2 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.433 s
+base example generation: 48.356 s
+seed is: 24212
+good example generation: 5.568 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 31.722 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2469 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m26.495s
+user	1m25.800s
+sys	0m0.236s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.422 s
+base example generation: 48.893 s
+seed is: 24212
+good example generation: 5.645 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 32.508 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2498 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m27.565s
+user	1m27.248s
+sys	0m0.248s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.423 s
+base example generation: 49.225 s
+seed is: 24212
+good example generation: 5.641 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 32.783 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2508 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m28.173s
+user	1m27.842s
+sys	0m0.258s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.422 s
+base example generation: 48.931 s
+seed is: 24212
+good example generation: 5.654 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 32.996 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2764 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m28.106s
+user	1m27.802s
+sys	0m0.227s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.428 s
+base example generation: 52.726 s
+seed is: 24212
+good example generation: 5.944 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.881 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2782 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m35.092s
+user	1m34.743s
+sys	0m0.268s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.446 s
+base example generation: 53.952 s
+seed is: 24212
+good example generation: 5.912 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.329 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2786 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m35.748s
+user	1m35.429s
+sys	0m0.240s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.451 s
+base example generation: 53.23 s
+seed is: 24212
+good example generation: 5.945 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.386 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2796 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m35.120s
+user	1m34.642s
+sys	0m0.368s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.446 s
+base example generation: 53.295 s
+seed is: 24212
+good example generation: 5.897 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.615 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2804 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m35.362s
+user	1m35.029s
+sys	0m0.256s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.445 s
+base example generation: 53.62 s
+seed is: 24212
+good example generation: 5.95 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.386 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2808 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m35.510s
+user	1m35.144s
+sys	0m0.288s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.452 s
+base example generation: 54.231 s
+seed is: 24212
+good example generation: 5.944 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 35.345 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2818 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	1m36.080s
+user	1m35.735s
+sys	0m0.269s
+starting test for leaf spine 4 2 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.766 s
+base example generation: 151.075 s
+seed is: 24212
+good example generation: 10.654 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.919 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2843 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.549s
+user	3m26.907s
+sys	0m0.558s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.785 s
+base example generation: 151.114 s
+seed is: 24212
+good example generation: 10.605 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.773 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2850 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.409s
+user	3m26.826s
+sys	0m0.504s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.784 s
+base example generation: 150.839 s
+seed is: 24212
+good example generation: 10.608 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.796 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2859 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.160s
+user	3m26.536s
+sys	0m0.544s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.783 s
+base example generation: 150.791 s
+seed is: 24212
+good example generation: 10.664 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 45.143 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2870 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.514s
+user	3m26.864s
+sys	0m0.572s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.778 s
+base example generation: 151.6 s
+seed is: 24212
+good example generation: 10.561 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.27 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2881 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.341s
+user	3m26.716s
+sys	0m0.544s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.778 s
+base example generation: 150.952 s
+seed is: 24212
+good example generation: 10.58 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.792 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2884 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.233s
+user	3m26.660s
+sys	0m0.492s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.782 s
+base example generation: 150.845 s
+seed is: 24212
+good example generation: 10.638 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.662 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2895 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m27.059s
+user	3m26.459s
+sys	0m0.520s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.781 s
+base example generation: 152.253 s
+seed is: 24212
+good example generation: 10.631 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.671 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2908 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m28.468s
+user	3m27.833s
+sys	0m0.556s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.779 s
+base example generation: 151.829 s
+seed is: 24212
+good example generation: 10.603 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.864 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2911 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m28.206s
+user	3m27.568s
+sys	0m0.560s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.779 s
+base example generation: 152.155 s
+seed is: 24212
+good example generation: 10.684 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 44.878 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2923 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	3m28.628s
+user	3m27.960s
+sys	0m0.588s
+starting test for leaf spine 3 3 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.519 s
+base example generation: 111.747 s
+seed is: 24212
+good example generation: 9.69 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.145 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2947 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m41.223s
+user	2m40.725s
+sys	0m0.419s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.55 s
+base example generation: 113.113 s
+seed is: 24212
+good example generation: 9.792 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.434 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  2951 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m43.013s
+user	2m42.451s
+sys	0m0.479s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.551 s
+base example generation: 112.14 s
+seed is: 24212
+good example generation: 9.679 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.37 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3001 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m41.862s
+user	2m41.353s
+sys	0m0.431s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.551 s
+base example generation: 111.809 s
+seed is: 24212
+good example generation: 9.775 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.174 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3005 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m41.431s
+user	2m40.868s
+sys	0m0.483s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.552 s
+base example generation: 111.569 s
+seed is: 24212
+good example generation: 9.698 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.371 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3019 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m41.312s
+user	2m40.751s
+sys	0m0.483s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.554 s
+base example generation: 112.574 s
+seed is: 24212
+good example generation: 9.728 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.261 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3026 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m42.239s
+user	2m41.661s
+sys	0m0.499s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.552 s
+base example generation: 112.457 s
+seed is: 24212
+good example generation: 9.822 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.402 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3036 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m42.355s
+user	2m41.845s
+sys	0m0.419s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.558 s
+base example generation: 112.962 s
+seed is: 24212
+good example generation: 9.693 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.374 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3042 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m42.709s
+user	2m42.010s
+sys	0m0.576s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.549 s
+base example generation: 113.033 s
+seed is: 24212
+good example generation: 9.81 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.749 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3062 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m43.263s
+user	2m42.700s
+sys	0m0.483s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.558 s
+base example generation: 111.969 s
+seed is: 24212
+good example generation: 9.799 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 39.348 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3085 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	2m41.796s
+user	2m41.258s
+sys	0m0.459s
+starting test for leaf spine 5 2 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.957 s
+base example generation: 260.796 s
+seed is: 24212
+good example generation: 17.055 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 150.075 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3108 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m9.028s
+user	7m8.307s
+sys	0m0.636s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.95 s
+base example generation: 261.86 s
+seed is: 24212
+good example generation: 17.203 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 149.295 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3134 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m9.454s
+user	7m8.326s
+sys	0m0.945s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.959 s
+base example generation: 260.061 s
+seed is: 24212
+good example generation: 17.091 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 151.854 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3155 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m10.111s
+user	7m9.393s
+sys	0m0.630s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.944 s
+base example generation: 259.705 s
+seed is: 24212
+good example generation: 17.176 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 149.34 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3171 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m7.312s
+user	7m6.081s
+sys	0m0.976s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.955 s
+base example generation: 259.932 s
+seed is: 24212
+good example generation: 17.035 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 149.849 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3189 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m7.916s
+user	7m7.094s
+sys	0m0.731s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.947 s
+base example generation: 258.622 s
+seed is: 24212
+good example generation: 17.03 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 150.106 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3205 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m6.851s
+user	7m5.538s
+sys	0m1.018s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.956 s
+base example generation: 260.21 s
+seed is: 24212
+good example generation: 17.224 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 149.76 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3226 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m8.296s
+user	7m7.547s
+sys	0m0.660s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.945 s
+base example generation: 259.611 s
+seed is: 24212
+good example generation: 17.012 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 150.371 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3247 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m8.090s
+user	7m6.907s
+sys	0m0.904s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.944 s
+base example generation: 261.507 s
+seed is: 24212
+good example generation: 17.066 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 150.809 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3265 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m10.471s
+user	7m9.710s
+sys	0m0.676s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.946 s
+base example generation: 261.581 s
+seed is: 24212
+good example generation: 16.926 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 149.679 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3282 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m9.276s
+user	7m7.825s
+sys	0m1.109s
+starting test for leaf spine 4 3 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.913 s
+base example generation: 250.834 s
+seed is: 24212
+good example generation: 18.108 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 153.211 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3311 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m3.207s
+user	7m2.505s
+sys	0m0.600s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.95 s
+base example generation: 251.416 s
+seed is: 24212
+good example generation: 18.076 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 153.956 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3325 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m4.538s
+user	7m3.807s
+sys	0m0.648s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.939 s
+base example generation: 249.666 s
+seed is: 24212
+good example generation: 18.095 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 152.805 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3409 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m1.647s
+user	7m0.986s
+sys	0m0.577s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.95 s
+base example generation: 252.094 s
+seed is: 24212
+good example generation: 18.229 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 155.582 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3431 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m6.996s
+user	7m6.323s
+sys	0m0.588s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.942 s
+base example generation: 257.84 s
+seed is: 24212
+good example generation: 18.315 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 155.512 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3458 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m12.750s
+user	7m11.571s
+sys	0m0.902s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.941 s
+base example generation: 250.228 s
+seed is: 24212
+good example generation: 18.077 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 153.372 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3516 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m2.757s
+user	7m2.026s
+sys	0m0.648s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.944 s
+base example generation: 249.055 s
+seed is: 24212
+good example generation: 17.976 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 153.23 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3537 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m1.344s
+user	7m0.659s
+sys	0m0.600s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.952 s
+base example generation: 251.073 s
+seed is: 24212
+good example generation: 18.319 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 154.121 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3556 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m4.605s
+user	7m3.925s
+sys	0m0.588s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.942 s
+base example generation: 250.32 s
+seed is: 24212
+good example generation: 18.208 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 154.718 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3575 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m4.328s
+user	7m3.657s
+sys	0m0.584s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 0.947 s
+base example generation: 251.849 s
+seed is: 24212
+good example generation: 18.202 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 154.357 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3593 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	7m5.494s
+user	7m4.759s
+sys	0m0.648s
+starting test for leaf spine 5 3 --------------
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.53 s
+base example generation: 439.613 s
+seed is: 24212
+good example generation: 30.138 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 120.747 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3625 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m52.204s
+user	9m50.340s
+sys	0m1.772s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.575 s
+base example generation: 438.017 s
+seed is: 24212
+good example generation: 30.06 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 120.932 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3662 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m50.771s
+user	9m48.675s
+sys	0m1.996s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.581 s
+base example generation: 441.589 s
+seed is: 24212
+good example generation: 29.934 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 121.527 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3705 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m54.812s
+user	9m52.774s
+sys	0m1.944s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.596 s
+base example generation: 442.686 s
+seed is: 24212
+good example generation: 31.602 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 121.498 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3742 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m57.559s
+user	9m55.518s
+sys	0m1.944s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.579 s
+base example generation: 441.265 s
+seed is: 24212
+good example generation: 30.336 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 123.084 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3775 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m56.442s
+user	9m54.504s
+sys	0m1.840s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.576 s
+base example generation: 442.881 s
+seed is: 24212
+good example generation: 30.21 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 121.931 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3815 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m56.773s
+user	9m54.687s
+sys	0m1.996s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.559 s
+base example generation: 438.905 s
+seed is: 24212
+good example generation: 29.883 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 121.268 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3852 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m51.793s
+user	9m49.786s
+sys	0m1.916s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.582 s
+base example generation: 437.732 s
+seed is: 24212
+good example generation: 30.137 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 121.389 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3885 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m51.018s
+user	9m48.965s
+sys	0m1.960s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.566 s
+base example generation: 437.847 s
+seed is: 24212
+good example generation: 29.902 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 120.501 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3913 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m49.993s
+user	9m48.034s
+sys	0m1.868s
+leaf_spine_bw
+Query constructed is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+query is: (and true
+     (<= (+ |L2_XBar.sink.1_enq_cnt[0]|
+            |L2_XBar.sink.1_enq_cnt[1]|
+            |L2_XBar.sink.1_enq_cnt[2]|
+            |L2_XBar.sink.1_enq_cnt[3]|
+            |L2_XBar.sink.1_enq_cnt[4]|
+            |L2_XBar.sink.1_enq_cnt[5]|
+            |L2_XBar.sink.1_enq_cnt[6]|
+            |L2_XBar.sink.1_enq_cnt[7]|
+            |L2_XBar.sink.1_enq_cnt[8]|
+            |L2_XBar.sink.1_enq_cnt[9]|)
+         4))
+cp setup: 1.59 s
+base example generation: 442.419 s
+seed is: 24212
+good example generation: 30.218 s
+generated 10 bad examples.
+generated 20 bad examples.
+generated 30 bad examples.
+generated 40 bad examples.
+bad example generation: 122.478 s
+search setup: 0 ms
+----------------------------------------------------------
+round 1
+*
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  ContentionPoint::get_expr: Invalid Rhs
+bash: line 1:  3948 Aborted                 (core dumped) ./build/fperf leaf_spine_bw
+
+real	9m56.884s
+user	9m54.788s
+sys	0m1.996s
